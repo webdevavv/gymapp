@@ -1,6 +1,7 @@
 import { FC } from "react";
 import styles from "./Header.module.scss";
 
+
 const Header: FC = () => {
   const handleAccountBtnClick = () => {
     console.log("account в разработке!");
@@ -63,6 +64,8 @@ const Header: FC = () => {
         </span>
       </div>
     </header>
+
+
   );
 };
 

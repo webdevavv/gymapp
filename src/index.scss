@@ -1,0 +1,31 @@
+:root {
+  --bg-dark-color: #1c1c1c;
+
+  --block-dark-color: #282828;
+  --block-light-color: #f4f4f4;
+
+  --accent: #dafc08;
+  --accent-active: #dbff00;
+
+  --white: #ffffff;
+
+  --time: 0.2s ease-in-out;
+}
+html {
+  scroll-behavior: smooth;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 12px;
+  font-family: "Manrope", sans-serif;
+  background-color: var(--bg-dark-color);
+  color: var(--white);
+}

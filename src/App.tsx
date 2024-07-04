@@ -1,7 +1,7 @@
 import { FC } from "react";
 
 const App: FC = () => {
-  return <div>hellow</div>;
+  return <div>hello antoha</div>;
 };
 
 export default App;

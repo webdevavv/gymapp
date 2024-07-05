@@ -1,13 +1,16 @@
 import { FC } from "react";
 import Header from "./modules/Header/Header";
 
-import Citate from "./components/Citate";
+import Quote from "./components/Quote/Quote";
 
 const App: FC = () => {
   return (
     <div>
       <Header />
-      <Citate mainText="Тренируйся правильно и эффективно" secondText="Используй это приложение чтобы лучше видеть свой прогресс"/>
+      <Quote
+        mainText="Тренируйся правильно и эффективно"
+        secondText="Используй это приложение чтобы лучше видеть свой прогресс"
+      />
     </div>
   );
 };
